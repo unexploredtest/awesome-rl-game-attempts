@@ -22,6 +22,7 @@
 - [Chess](#chess)
 - [Dota 2](#dota-2)
 - [Flappy Bird](#flappy-bird)
+- [Geometry Dash](#geometry-dash)
 - [Go](#go)
 - [Mario Kart Wii](#mario-kart-wii)
 - [Minecraft](#minecraft)
@@ -63,6 +64,16 @@
 - **Description:** I don't know how to describe it, it's common knowledge that the problem has been solved.
 - **References:**
   - [AI learning the game.](https://www.youtube.com/watch?v=WSW-5m8lRMs)
+
+## Geometry Dash
+- **Platform:** PC
+- **Tier:** Notable outcomes* (NO)
+- **Description:** An AI was successful in completing a level.
+- **Caveats:**
+  - Not on all levels.
+  - A clone was used.
+- **References:**
+  - [AI beating a level.](https://www.youtube.com/watch?v=A3JJsjZLRSo)
 
 ## Go
 - **Mode:** 19x19
