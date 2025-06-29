@@ -34,6 +34,7 @@ TIER_DEFINITIONS = """
 # TODO: Clean up the code and attempt to remove duplicacy
 def generate_markdown(data):
     markdown = ""
+    header = "WORK IN PROGRESS\n\n"
     header = "# Awesome RL Attempts at Games\n\n"
 
     header += TIER_DEFINITIONS
