@@ -1,0 +1,33 @@
+name: Update attempts markdown
+
+on:
+  push:
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout the repository
+      uses: actions/checkout@v3
+
+    - name: Validate attempts JSON
+      run: |
+        python3 validate_json.py
+
+    - name: Generate Attempts markdown
+      run: |
+        python3 generate_markdown.py
+
+    - name: Commit updated files back to the repository
+      run: |
+        git config user.name github-actions
+        git config user.email github-actions@github.com
+        # Only commit if there are changes
+        if git diff --quiet; then
+          echo "No changes to commit."
+        else
+          git commit -am "[update] Update instances"
+          git push
+        fi

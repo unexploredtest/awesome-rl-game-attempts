@@ -242,6 +242,26 @@
                     }
                 ]
             }
+        },
+        {
+            "game": {
+                "name": "Geometry Dash",
+                "platform": "PC"
+            },
+            "info": {
+                "tier": "NO",
+                "caveats": [
+                    "Not on all levels.",
+                    "A clone was used."
+                ],
+                "description": "An AI was successful in completing a level.",
+                "references": [
+                    {
+                        "url": "https://www.youtube.com/watch?v=A3JJsjZLRSo",
+                        "description": "AI beating a level."
+                    }
+                ]
+            }
         }
     ]
 }
