@@ -1,0 +1,87 @@
+{
+    "$schema": "http://json-schema.org/schema#",
+    "type": "object",
+    "properties": {
+        "attempts": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "game": {
+                        "type": "object",
+                        "properties": {
+                            "name": {
+                                "type": "string"
+                            },
+                            "platform": {
+                                "type": "string",
+                                "enum": [
+                                    "NA",
+                                    "PC",
+                                    "Wii",
+                                    "Gamecube",
+                                    "Gameboy",
+                                    "Atari 2600"
+                                ]
+                            },
+                            "mode": {
+                                "type": "string"
+                            }
+                        },
+                        "required": ["name"]
+                    },
+                    "info": {
+                        "type": "object",
+                        "properties": {
+                            "tier": {
+                                "type": "string",
+                                "enum": ["G", "S", "A", "B", "C", "CP", "NO"],
+                                "$comment": "Performance of the state-of-the-art agent."
+                            },
+                            "caveats": {
+                                "type": "array",
+                                "items": {
+                                    "type": "string"
+                                },
+                                "$comment": "Things that doesn't make the agent ideal."
+                            },
+                            "objective": {
+                                "type": "string",
+                                "$comment": "Information about the objective of the challenge."
+                            },
+                            "description": {
+                                "type": "string",
+                                "$comment": "Information about the agent."
+                            },
+                            "t-description": {
+                                "type": "string",
+                                "$comment": "Technical information about the agent."
+                            },
+                            "references": {
+                                "type": "array",
+                                "items": {
+                                    "type": "object",
+                                    "properties": {
+                                        "url": {
+                                            "type": "string",
+                                            "format": "uri",
+                                            "$comment": "URL of the reference."
+                                        },
+                                        "description": {
+                                            "type": "string",
+                                            "$comment": "Description of the reference."
+                                        }
+                                    },
+                                    "required": ["url", "description"]
+                                },
+                                "$comment": "Links for resources."
+                            }
+                        },
+                        "required": ["tier"]
+                    }
+                },
+                "required": ["game", "info"]
+            }
+        }
+    }
+}

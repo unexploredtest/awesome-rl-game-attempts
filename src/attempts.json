@@ -1,0 +1,247 @@
+{
+    "attempts": [
+        {
+            "game": {
+                "name": "Mario Kart Wii",
+                "platform": "Wii",
+                "mode": "Normal Racing"
+            },
+            "info": {
+                "tier": "B",
+                "description": "Played competitvely against a human at four tracks.",
+                "t-description": "Uses BTR as the model.",
+                "references": [
+                    {
+                        "url": "https://www.youtube.com/watch?v=4-ff6na9cg4",
+                        "description": "Youtube video of an AI competing with a professional human."
+                    },
+                    {
+                        "url": "https://arxiv.org/abs/2411.03820",
+                        "description": "BTR paper."
+                    }
+                ]
+            }
+        },
+        {
+            "game": {
+                "name": "Go",
+                "platform": "NA",
+                "mode": "19x19"
+            },
+            "info": {
+                "tier": "S",
+                "caveats": [
+                    "Not open source."
+                ],
+                "description": "Beat the human champion Lee Sedol.",
+                "references": [
+                    {
+                        "url": "https://www.youtube.com/watch?v=WXuK6gekU1Y",
+                        "description": "Documentary of AlphaGo beating Lee Sedol, a Go champion"
+                    }
+                ]
+            }
+        },
+        {
+            "game": {
+                "name": "Rocket League",
+                "platform": "PC"
+            },
+            "info": {
+                "tier": "S",
+                "description": "Beat the best players of the world.",
+                "references": [
+                    {
+                        "url": "https://www.youtube.com/watch?v=LO4h8djNB50",
+                        "description": "Video of the AI beating the best humans."
+                    }
+                ]
+            }
+        },
+        {
+            "game": {
+                "name": "Pokeman Red",
+                "platform": "Gameboy"
+            },
+            "info": {
+                "tier": "NO",
+                "description": "Beat a good chunk of the game.",
+                "references": [
+                    {
+                        "url": "https://www.youtube.com/watch?v=DcYLT37ImBY",
+                        "description": "Video of the AI playing the game."
+                    },
+                                        {
+                        "url": "https://github.com/PWhiddy/PokemonRedExperiments",
+                        "description": "Link to the source code."
+                    }
+                ]
+            }
+        },
+        {
+            "game": {
+                "name": "Starcraft II",
+                "platform": "PC",
+                "mode": "1vs1"
+            },
+            "info": {
+                "tier": "A",
+                "caveats": [
+                    "Relies on human data."
+                ],
+                "description": "The state-of-the-art agent in the question is AlphaStar. Beat the human champion, Serral, at some games.",
+                "references": [
+                    {
+                        "url": "https://www.youtube.com/watch?v=DcYLT37ImBY",
+                        "description": "Video of the AI completing the levels."
+                    }
+                ]
+            }
+        },
+        {
+            "game": {
+                "name": "Chess",
+                "platform": "NA"
+            },
+            "info": {
+                "tier": "S",
+                "description": "The state-of-the-art agent is Leela Chess Zero.",
+                "references": [
+                    {
+                        "url": "https://lczero.org/",
+                        "description": "Leela Chess zero's website."
+                    }
+                ]
+            }
+        },
+        {
+            "game": {
+                "name": "Dota 2",
+                "platform": "PC"
+            },
+            "info": {
+                "tier": "S",
+                "description": "The state-of-the-art agent is called OpenAI Five.",
+                "references": [
+                    {
+                        "url": "https://www.youtube.com/watch?v=tfb6aEUMC04",
+                        "description": "AI beating the world champions of Dota II."
+                    }
+                ]
+            }
+        },
+        {
+            "game": {
+                "name": "Minecraft",
+                "platform": "PC",
+                "mode": "Getting Diamond"
+            },
+            "info": {
+                "tier": "CP",
+                "description": "",
+                "t-description": "Solved with DreamerV3",
+                "references": [
+                    {
+                        "url": "https://arxiv.org/abs/2301.04104",
+                        "description": "DreamerV3's paper."
+                    }
+                ]
+            }
+        },
+        {
+            "game": {
+                "name": "Mario Kart Wii",
+                "platform": "Wii",
+                "mode": "Time Trial"
+            },
+            "info": {
+                "tier": "A",
+                "description": "Has acheived an expert-level time trial in Luigi Circuit.",
+                "caveats": [
+                    "Not on all levels."
+                ],
+                "references": [
+                    {
+                        "url": "https://www.youtube.com/watch?v=h0FHCo5HYR8",
+                        "description": "Video of an AI achieving expert-level time trial in Luigi Circuit."
+                    }
+                ]
+            }
+        },
+        {
+            "game": {
+                "name": "Tic Tac Toe",
+                "platform": "NA"
+            },
+            "info": {
+                "tier": "G",
+                "description": "No explaination needed."
+            }
+        },
+        {
+            "game": {
+                "name": "Backgammon",
+                "platform": "NA"
+            },
+            "info": {
+                "tier": "S",
+                "description": "",
+                "t-description": "TD-Gammon is the model that was used",
+                "references": [
+                    {
+                        "url": "https://en.wikipedia.org/wiki/TD-Gammon",
+                        "description": "TD-Gammon wikipedia."
+                    }
+                ]
+            }
+        },
+        {
+            "game": {
+                "name": "Atari Games",
+                "platform": "Atari 2600"
+            },
+            "info": {
+                "tier": "S",
+                "description": "It's the benchmark for Reinforcement Learning algorithms and all human scores have been beat.",
+                "references": [
+                    {
+                        "url": "https://deepmind.google/discover/blog/agent57-outperforming-the-human-atari-benchmark/#:~:text=We've%20developed%20Agent57%2C%20the,all%2057%20Atari%202600%20games.",
+                        "description": "Deepmind blog about an agent that has beat humans at all Atari games."
+                    }
+                ]
+            }
+        },
+        {
+            "game": {
+                "name": "Teeworlds",
+                "platform": "PC"
+            },
+            "info": {
+                "tier": "NO",
+                "description": "Very few attempts have been made, one notable mention is the AI being able to complete a custom level.",
+                "references": [
+                    {
+                        "url": "https://www.youtube.com/watch?v=JTlTj--roIo",
+                        "description": "AI beating a custom level."
+                    }
+                ]
+            }
+        },
+        {
+            "game": {
+                "name": "Flappy Bird",
+                "platform": "NA"
+            },
+            "info": {
+                "tier": "G",
+                "description": "I don't know how to describe it, it's common knowledge that the problem has been solved.",
+                "references": [
+                    {
+                        "url": "https://www.youtube.com/watch?v=WSW-5m8lRMs",
+                        "description": "AI learning the game."
+                    }
+                ]
+            }
+        }
+    ]
+}
