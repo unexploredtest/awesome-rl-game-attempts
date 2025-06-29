@@ -1,0 +1,17 @@
+name: Validate attempts json
+
+on:
+  push:
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout the repository
+      uses: actions/checkout@v3
+
+    - name: Validate attempts JSON
+      run: |
+        python3 validate_json.py
