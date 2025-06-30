@@ -13,31 +13,11 @@ TIERS_MAP = {
     "NO": "Notable outcomes"
 }
 
-TIER_DEFINITIONS = """
-## Tier Description:
-
-- God-level (G): Plays perfectly, with no mistakes what so ever.
-
-- Super-human (S): Plays better than any human in the existence.
-
-- Champion (A): On par with the champions of the game.
-
-- Competitive/Pro (B): Can beat the average player.
-
-- Average (C): Well, average.
-
-- Complete (CP): Has beat all levels or completed the game (if applicable).
-
-- Notable outcomes (NO): Has achieved some goals, although by no means complete.
-"""
-
 # TODO: Clean up the code and attempt to remove duplicacy
 def generate_markdown(data):
     markdown = ""
     header = "WORK IN PROGRESS\n\n"
     header += "# Awesome RL Attempts at Games\n\n"
-
-    header += TIER_DEFINITIONS
 
     data['attempts'].sort(key=lambda attempt: attempt['game']['name'])
     
